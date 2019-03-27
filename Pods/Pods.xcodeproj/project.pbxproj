@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0020CD44FA03DB801AF41B09E2570332 /* UNIJsonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D9024A2A864804DAD47FED2F551B8170 /* UNIJsonNode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0628A9C9D837E15B9BFE6AE66708EE60 /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = BE3403F047270DB0B07FB4871ADD9832 /* Base64.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0AFDDE3422F0E08431243051C2D56D5B /* UNIUrlConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = D1F8574967F25058F36E33C52012AD7D /* UNIUrlConnection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0FB7E50CB15D1BC384479D4C3591D3E1 /* UNIJsonNode.h in Headers */ = {isa = PBXBuildFile; fileRef = C10A671FA80F52391D3711ACF7C2C546 /* UNIJsonNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		14F574427DA475567515FAAD1AA0D5E0 /* Pods-ImaggaObjcCoreDataTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E95FE304EC53645A6E37281CB851267B /* Pods-ImaggaObjcCoreDataTests-dummy.m */; };
+		1E3BFC409A406D03D87369E1E82B4E54 /* UNIHTTPBinaryResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B83EF1A1635D6F6CF109A2012FABD6D /* UNIHTTPBinaryResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2D74F99DB142E2706C838127686AFCB1 /* Pods-ImaggaObjcCoreData-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8A974C2EA4D8CAFE57AE15BB966BB /* Pods-ImaggaObjcCoreData-dummy.m */; };
+		2EFD57BD4CED83C2A0C22768D625E171 /* UNISimpleRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 449187A180F3E7A630ED6BBA5003FA75 /* UNISimpleRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		33CD1E03F5220842A44707EDABB6B8A2 /* UNIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDC3F789489A79AC74F43FBA8427E10 /* UNIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		450EB95AB9A7AF3F63359543068F861C /* UNIBodyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E04855668ED67CFEA61A1D8A423E0801 /* UNIBodyRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4908DBAE6DE8113E68916F8B94094C3A /* UNIBodyRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D2D679D0CEAAA4BF17F398CCC1D5907 /* UNIBodyRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4EFFE3E1AA3F2067B8C9B0246F782FFA /* UNIHTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 58050283C6E7A39E3A8D98539CEC6689 /* UNIHTTPResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		50E835DBE43603BCC03C0416BFCEBEDA /* UNIHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = BE97EF57A68A54AA6EE3C39E527C3F09 /* UNIHTTPResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		535F32A84A791B00D7D181CEA70CC385 /* UNIHTTPRequestWithBody.h in Headers */ = {isa = PBXBuildFile; fileRef = AC86D757A3523EC26BCA22A0E07F7A3F /* UNIHTTPRequestWithBody.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5BFCD20FCDE6CC594FEE9AA50B385D58 /* UNIHTTPStringResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = C4FAFD7B903466375B81E811B60AB8FA /* UNIHTTPStringResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5CE37E10E28D8F0E76E3118690504774 /* UNIHTTPJsonResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = E62AABF25C58BC1406F2C645892DF8A0 /* UNIHTTPJsonResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7E25DD5165CD9EFEBFB18D2DCE6D6BD3 /* UNIBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4932DE2D1C320BFB293C44ADF6D31C /* UNIBaseRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		822F2676A3FBD9B44652E52EA0EB4205 /* UNIRest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC47074CF11711517EE33E7FEF70FFD /* UNIRest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8A4D3B56A6DB72497B6EE606274F220F /* UNIHTTPJsonResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E40CF4345F069C4E6D38435D41FC5D7 /* UNIHTTPJsonResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8C890DFF26651C5013314B566CF512A1 /* UNIBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1402FE05C2B1620C23DB7C1432DEA15F /* UNIBaseRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9E034D013E258E53F0A81C90BFDB0BB0 /* UNISimpleRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 77626892055C2EE28A855D72C3BB23DC /* UNISimpleRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A567E5A9199BABC34B8C5A07E82D138D /* UNIUrlConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3DD8EBE4909EA80E890EBDAC583B5F /* UNIUrlConnection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A6C3A7C383B9EA5D47E4761ECC560BE8 /* UNIHTTPClientHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CEF0BA3F25B6D4DDB1E867E1AB57A68 /* UNIHTTPClientHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ACAB0F4C5EAAA7ECEBFE6EA7A8C51E54 /* UNIHTTPRequestWithBody.m in Sources */ = {isa = PBXBuildFile; fileRef = EADEFEDD0F63E04C3FA9C9398FFE096B /* UNIHTTPRequestWithBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B9BD694DAEB73FA0B50417A858A8346A /* Unirest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A467F6875865BD34D8FE9E34E94EF44E /* Unirest-dummy.m */; };
+		BD09C0729FA7284700AB0B0CF8017830 /* UNIHTTPStringResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9CECBC85AA07AD2F3C6137BDF207EE /* UNIHTTPStringResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CC91EB3F9909822134BEF1F619949B14 /* UNIHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C7AC074D880C374487B29D1A3EACE6AC /* UNIHTTPRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CEA1554334E29389E717CF80A6B4C1C2 /* UNIHTTPClientHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C9380CE76E06957C40C5D54518E5F6 /* UNIHTTPClientHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DB03D420BB9FF799D539A2D8F6EE7B15 /* UNIRest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C5B2CFA1C54C67D3BBDD683FA6771BE /* UNIRest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB6CED0D0F7C61E905A62E9256801C42 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = C895FEBF10E7266513A246F41E485665 /* Base64.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F45FE8FE032733E566C23D6335CC7844 /* UNIHTTPBinaryResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 5239D7600AA44150F017EBE8F99B37E7 /* UNIHTTPBinaryResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A680556942946E3BD9A826B7DA9D996 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13A8211414F62CE1FF64044B94E7D86C;
+			remoteInfo = Unirest;
+		};
+		F4792E882563F1DCECEB157D19A50442 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ECDBD128366060F243A60C121A263BB;
+			remoteInfo = "Pods-ImaggaObjcCoreData";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C5B2CFA1C54C67D3BBDD683FA6771BE /* UNIRest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIRest.h; path = Unirest/UNIRest.h; sourceTree = "<group>"; };
+		1402FE05C2B1620C23DB7C1432DEA15F /* UNIBaseRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIBaseRequest.h; path = Unirest/HttpRequest/UNIBaseRequest.h; sourceTree = "<group>"; };
+		1D2D679D0CEAAA4BF17F398CCC1D5907 /* UNIBodyRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIBodyRequest.h; path = Unirest/HttpRequest/UNIBodyRequest.h; sourceTree = "<group>"; };
+		1EC47074CF11711517EE33E7FEF70FFD /* UNIRest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIRest.m; path = Unirest/UNIRest.m; sourceTree = "<group>"; };
+		3AE8A974C2EA4D8CAFE57AE15BB966BB /* Pods-ImaggaObjcCoreData-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImaggaObjcCoreData-dummy.m"; sourceTree = "<group>"; };
+		449187A180F3E7A630ED6BBA5003FA75 /* UNISimpleRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNISimpleRequest.m; path = Unirest/HttpRequest/UNISimpleRequest.m; sourceTree = "<group>"; };
+		5239D7600AA44150F017EBE8F99B37E7 /* UNIHTTPBinaryResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPBinaryResponse.h; path = Unirest/HttpResponse/UNIHTTPBinaryResponse.h; sourceTree = "<group>"; };
+		569E56932BF08F2600D823B58F405EBE /* Pods-ImaggaObjcCoreData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImaggaObjcCoreData.debug.xcconfig"; sourceTree = "<group>"; };
+		58050283C6E7A39E3A8D98539CEC6689 /* UNIHTTPResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPResponse.h; path = Unirest/HttpResponse/UNIHTTPResponse.h; sourceTree = "<group>"; };
+		5B83EF1A1635D6F6CF109A2012FABD6D /* UNIHTTPBinaryResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPBinaryResponse.m; path = Unirest/HttpResponse/UNIHTTPBinaryResponse.m; sourceTree = "<group>"; };
+		5CEF0BA3F25B6D4DDB1E867E1AB57A68 /* UNIHTTPClientHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPClientHelper.m; path = Unirest/UNIHTTPClientHelper.m; sourceTree = "<group>"; };
+		65AF2AC0338FCC824419948CCABF2D9D /* Pods-ImaggaObjcCoreData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImaggaObjcCoreData.release.xcconfig"; sourceTree = "<group>"; };
+		69CA873A1FEEBF68A5AFEF62032BAADE /* Pods-ImaggaObjcCoreDataTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImaggaObjcCoreDataTests.release.xcconfig"; sourceTree = "<group>"; };
+		730D6A1BAA690F7F896F6339FB0AEEE8 /* libPods-ImaggaObjcCoreData.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ImaggaObjcCoreData.a"; path = "libPods-ImaggaObjcCoreData.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77626892055C2EE28A855D72C3BB23DC /* UNISimpleRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNISimpleRequest.h; path = Unirest/HttpRequest/UNISimpleRequest.h; sourceTree = "<group>"; };
+		8A3B23B5044B9A8642C6116D006F5765 /* Pods-ImaggaObjcCoreDataTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImaggaObjcCoreDataTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8C9CECBC85AA07AD2F3C6137BDF207EE /* UNIHTTPStringResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPStringResponse.m; path = Unirest/HttpResponse/UNIHTTPStringResponse.m; sourceTree = "<group>"; };
+		8E40CF4345F069C4E6D38435D41FC5D7 /* UNIHTTPJsonResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPJsonResponse.m; path = Unirest/HttpResponse/UNIHTTPJsonResponse.m; sourceTree = "<group>"; };
+		9D0DD264A6BAF31D1F343974436C48CA /* libUnirest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libUnirest.a; path = libUnirest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A467F6875865BD34D8FE9E34E94EF44E /* Unirest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Unirest-dummy.m"; sourceTree = "<group>"; };
+		AC86D757A3523EC26BCA22A0E07F7A3F /* UNIHTTPRequestWithBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPRequestWithBody.h; path = Unirest/UNIHTTPRequestWithBody.h; sourceTree = "<group>"; };
+		AE4932DE2D1C320BFB293C44ADF6D31C /* UNIBaseRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIBaseRequest.m; path = Unirest/HttpRequest/UNIBaseRequest.m; sourceTree = "<group>"; };
+		AEDC3F789489A79AC74F43FBA8427E10 /* UNIHTTPRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPRequest.m; path = Unirest/UNIHTTPRequest.m; sourceTree = "<group>"; };
+		AF245A013C05DB420567B998A56EB7A4 /* libPods-ImaggaObjcCoreDataTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ImaggaObjcCoreDataTests.a"; path = "libPods-ImaggaObjcCoreDataTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C9380CE76E06957C40C5D54518E5F6 /* UNIHTTPClientHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPClientHelper.h; path = Unirest/UNIHTTPClientHelper.h; sourceTree = "<group>"; };
+		BE3403F047270DB0B07FB4871ADD9832 /* Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Base64.h; path = Unirest/Base64.h; sourceTree = "<group>"; };
+		BE97EF57A68A54AA6EE3C39E527C3F09 /* UNIHTTPResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPResponse.m; path = Unirest/HttpResponse/UNIHTTPResponse.m; sourceTree = "<group>"; };
+		BF3DD8EBE4909EA80E890EBDAC583B5F /* UNIUrlConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIUrlConnection.m; path = Unirest/UNIUrlConnection.m; sourceTree = "<group>"; };
+		C10A671FA80F52391D3711ACF7C2C546 /* UNIJsonNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIJsonNode.h; path = Unirest/HttpResponse/UNIJsonNode.h; sourceTree = "<group>"; };
+		C30B60F145E165A7DD9C30B3CDC33827 /* Unirest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Unirest.xcconfig; sourceTree = "<group>"; };
+		C4FAFD7B903466375B81E811B60AB8FA /* UNIHTTPStringResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPStringResponse.h; path = Unirest/HttpResponse/UNIHTTPStringResponse.h; sourceTree = "<group>"; };
+		C7AC074D880C374487B29D1A3EACE6AC /* UNIHTTPRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPRequest.h; path = Unirest/UNIHTTPRequest.h; sourceTree = "<group>"; };
+		C895FEBF10E7266513A246F41E485665 /* Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Base64.m; path = Unirest/Base64.m; sourceTree = "<group>"; };
+		CFFA019D376723098EB07152938758D8 /* Pods-ImaggaObjcCoreData-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImaggaObjcCoreData-acknowledgements.plist"; sourceTree = "<group>"; };
+		D1F8574967F25058F36E33C52012AD7D /* UNIUrlConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIUrlConnection.h; path = Unirest/UNIUrlConnection.h; sourceTree = "<group>"; };
+		D9024A2A864804DAD47FED2F551B8170 /* UNIJsonNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIJsonNode.m; path = Unirest/HttpResponse/UNIJsonNode.m; sourceTree = "<group>"; };
+		E04855668ED67CFEA61A1D8A423E0801 /* UNIBodyRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIBodyRequest.m; path = Unirest/HttpRequest/UNIBodyRequest.m; sourceTree = "<group>"; };
+		E62AABF25C58BC1406F2C645892DF8A0 /* UNIHTTPJsonResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPJsonResponse.h; path = Unirest/HttpResponse/UNIHTTPJsonResponse.h; sourceTree = "<group>"; };
+		E95FE304EC53645A6E37281CB851267B /* Pods-ImaggaObjcCoreDataTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImaggaObjcCoreDataTests-dummy.m"; sourceTree = "<group>"; };
+		EA0D75A971DC749B389057BC99BD58D9 /* Pods-ImaggaObjcCoreData-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImaggaObjcCoreData-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EADEFEDD0F63E04C3FA9C9398FFE096B /* UNIHTTPRequestWithBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPRequestWithBody.m; path = Unirest/UNIHTTPRequestWithBody.m; sourceTree = "<group>"; };
+		F4C147F7FD3875D6FA0C46228C36AB3F /* Unirest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Unirest-prefix.pch"; sourceTree = "<group>"; };
+		F6AAD58C11DF34D01BCC53FDDF4FABD6 /* Pods-ImaggaObjcCoreDataTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImaggaObjcCoreDataTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC2C6F545F6F8D650F4F5E647FBE236C /* Pods-ImaggaObjcCoreDataTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImaggaObjcCoreDataTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1906E3CBDA4B245FAEB6A6ADD24D75A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7FB050EF4C3D70ED8E96F7ED4A3843A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90316CF79835BA0ED51ED7F4DB99DAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00294952D60FBEA96B286AFDF07B6820 /* Pods-ImaggaObjcCoreDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC2C6F545F6F8D650F4F5E647FBE236C /* Pods-ImaggaObjcCoreDataTests-acknowledgements.markdown */,
+				8A3B23B5044B9A8642C6116D006F5765 /* Pods-ImaggaObjcCoreDataTests-acknowledgements.plist */,
+				E95FE304EC53645A6E37281CB851267B /* Pods-ImaggaObjcCoreDataTests-dummy.m */,
+				F6AAD58C11DF34D01BCC53FDDF4FABD6 /* Pods-ImaggaObjcCoreDataTests.debug.xcconfig */,
+				69CA873A1FEEBF68A5AFEF62032BAADE /* Pods-ImaggaObjcCoreDataTests.release.xcconfig */,
+			);
+			name = "Pods-ImaggaObjcCoreDataTests";
+			path = "Target Support Files/Pods-ImaggaObjcCoreDataTests";
+			sourceTree = "<group>";
+		};
+		4711AABA8F7D0CD97BE9EFD370A1FB79 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86E245DA2BA840DDAC7CE1C74F49DB82 /* Pods-ImaggaObjcCoreData */,
+				00294952D60FBEA96B286AFDF07B6820 /* Pods-ImaggaObjcCoreDataTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		64963068BAC232E6F33D7742DA822786 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C30B60F145E165A7DD9C30B3CDC33827 /* Unirest.xcconfig */,
+				A467F6875865BD34D8FE9E34E94EF44E /* Unirest-dummy.m */,
+				F4C147F7FD3875D6FA0C46228C36AB3F /* Unirest-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Unirest";
+			sourceTree = "<group>";
+		};
+		86E245DA2BA840DDAC7CE1C74F49DB82 /* Pods-ImaggaObjcCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				EA0D75A971DC749B389057BC99BD58D9 /* Pods-ImaggaObjcCoreData-acknowledgements.markdown */,
+				CFFA019D376723098EB07152938758D8 /* Pods-ImaggaObjcCoreData-acknowledgements.plist */,
+				3AE8A974C2EA4D8CAFE57AE15BB966BB /* Pods-ImaggaObjcCoreData-dummy.m */,
+				569E56932BF08F2600D823B58F405EBE /* Pods-ImaggaObjcCoreData.debug.xcconfig */,
+				65AF2AC0338FCC824419948CCABF2D9D /* Pods-ImaggaObjcCoreData.release.xcconfig */,
+			);
+			name = "Pods-ImaggaObjcCoreData";
+			path = "Target Support Files/Pods-ImaggaObjcCoreData";
+			sourceTree = "<group>";
+		};
+		A3A729513BF1A87109B04D920CDD28B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				730D6A1BAA690F7F896F6339FB0AEEE8 /* libPods-ImaggaObjcCoreData.a */,
+				AF245A013C05DB420567B998A56EB7A4 /* libPods-ImaggaObjcCoreDataTests.a */,
+				9D0DD264A6BAF31D1F343974436C48CA /* libUnirest.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5619E21B9562ECAB215EE555BA25439 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E353D6815EADE443C9FF99F038E985AA /* Unirest */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				A5619E21B9562ECAB215EE555BA25439 /* Pods */,
+				A3A729513BF1A87109B04D920CDD28B8 /* Products */,
+				4711AABA8F7D0CD97BE9EFD370A1FB79 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E353D6815EADE443C9FF99F038E985AA /* Unirest */ = {
+			isa = PBXGroup;
+			children = (
+				BE3403F047270DB0B07FB4871ADD9832 /* Base64.h */,
+				C895FEBF10E7266513A246F41E485665 /* Base64.m */,
+				1402FE05C2B1620C23DB7C1432DEA15F /* UNIBaseRequest.h */,
+				AE4932DE2D1C320BFB293C44ADF6D31C /* UNIBaseRequest.m */,
+				1D2D679D0CEAAA4BF17F398CCC1D5907 /* UNIBodyRequest.h */,
+				E04855668ED67CFEA61A1D8A423E0801 /* UNIBodyRequest.m */,
+				5239D7600AA44150F017EBE8F99B37E7 /* UNIHTTPBinaryResponse.h */,
+				5B83EF1A1635D6F6CF109A2012FABD6D /* UNIHTTPBinaryResponse.m */,
+				B6C9380CE76E06957C40C5D54518E5F6 /* UNIHTTPClientHelper.h */,
+				5CEF0BA3F25B6D4DDB1E867E1AB57A68 /* UNIHTTPClientHelper.m */,
+				E62AABF25C58BC1406F2C645892DF8A0 /* UNIHTTPJsonResponse.h */,
+				8E40CF4345F069C4E6D38435D41FC5D7 /* UNIHTTPJsonResponse.m */,
+				C7AC074D880C374487B29D1A3EACE6AC /* UNIHTTPRequest.h */,
+				AEDC3F789489A79AC74F43FBA8427E10 /* UNIHTTPRequest.m */,
+				AC86D757A3523EC26BCA22A0E07F7A3F /* UNIHTTPRequestWithBody.h */,
+				EADEFEDD0F63E04C3FA9C9398FFE096B /* UNIHTTPRequestWithBody.m */,
+				58050283C6E7A39E3A8D98539CEC6689 /* UNIHTTPResponse.h */,
+				BE97EF57A68A54AA6EE3C39E527C3F09 /* UNIHTTPResponse.m */,
+				C4FAFD7B903466375B81E811B60AB8FA /* UNIHTTPStringResponse.h */,
+				8C9CECBC85AA07AD2F3C6137BDF207EE /* UNIHTTPStringResponse.m */,
+				C10A671FA80F52391D3711ACF7C2C546 /* UNIJsonNode.h */,
+				D9024A2A864804DAD47FED2F551B8170 /* UNIJsonNode.m */,
+				0C5B2CFA1C54C67D3BBDD683FA6771BE /* UNIRest.h */,
+				1EC47074CF11711517EE33E7FEF70FFD /* UNIRest.m */,
+				77626892055C2EE28A855D72C3BB23DC /* UNISimpleRequest.h */,
+				449187A180F3E7A630ED6BBA5003FA75 /* UNISimpleRequest.m */,
+				D1F8574967F25058F36E33C52012AD7D /* UNIUrlConnection.h */,
+				BF3DD8EBE4909EA80E890EBDAC583B5F /* UNIUrlConnection.m */,
+				64963068BAC232E6F33D7742DA822786 /* Support Files */,
+			);
+			name = Unirest;
+			path = Unirest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7525E595A0EADF7DBEC40BC46B5F53DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6872CCF3F385BB760B4EF68B7438367 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59E02AABD16D86A727919F24D892058 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0628A9C9D837E15B9BFE6AE66708EE60 /* Base64.h in Headers */,
+				8C890DFF26651C5013314B566CF512A1 /* UNIBaseRequest.h in Headers */,
+				4908DBAE6DE8113E68916F8B94094C3A /* UNIBodyRequest.h in Headers */,
+				F45FE8FE032733E566C23D6335CC7844 /* UNIHTTPBinaryResponse.h in Headers */,
+				CEA1554334E29389E717CF80A6B4C1C2 /* UNIHTTPClientHelper.h in Headers */,
+				5CE37E10E28D8F0E76E3118690504774 /* UNIHTTPJsonResponse.h in Headers */,
+				CC91EB3F9909822134BEF1F619949B14 /* UNIHTTPRequest.h in Headers */,
+				535F32A84A791B00D7D181CEA70CC385 /* UNIHTTPRequestWithBody.h in Headers */,
+				4EFFE3E1AA3F2067B8C9B0246F782FFA /* UNIHTTPResponse.h in Headers */,
+				5BFCD20FCDE6CC594FEE9AA50B385D58 /* UNIHTTPStringResponse.h in Headers */,
+				0FB7E50CB15D1BC384479D4C3591D3E1 /* UNIJsonNode.h in Headers */,
+				DB03D420BB9FF799D539A2D8F6EE7B15 /* UNIRest.h in Headers */,
+				9E034D013E258E53F0A81C90BFDB0BB0 /* UNISimpleRequest.h in Headers */,
+				0AFDDE3422F0E08431243051C2D56D5B /* UNIUrlConnection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13A8211414F62CE1FF64044B94E7D86C /* Unirest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6661CB3D2786EE70DF8ABF581D63AB1F /* Build configuration list for PBXNativeTarget "Unirest" */;
+			buildPhases = (
+				E59E02AABD16D86A727919F24D892058 /* Headers */,
+				6D71F875B7993C5718078D44B34EAFE4 /* Sources */,
+				1906E3CBDA4B245FAEB6A6ADD24D75A0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Unirest;
+			productName = Unirest;
+			productReference = 9D0DD264A6BAF31D1F343974436C48CA /* libUnirest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9ECDBD128366060F243A60C121A263BB /* Pods-ImaggaObjcCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A12C1F67023DBD916AE7E3E0A445656 /* Build configuration list for PBXNativeTarget "Pods-ImaggaObjcCoreData" */;
+			buildPhases = (
+				7525E595A0EADF7DBEC40BC46B5F53DA /* Headers */,
+				0FCBBBF4766373FBCECE65771F0CA4D9 /* Sources */,
+				C90316CF79835BA0ED51ED7F4DB99DAD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB44930B1AA2ED4B3FC2651A198E5191 /* PBXTargetDependency */,
+			);
+			name = "Pods-ImaggaObjcCoreData";
+			productName = "Pods-ImaggaObjcCoreData";
+			productReference = 730D6A1BAA690F7F896F6339FB0AEEE8 /* libPods-ImaggaObjcCoreData.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EC7A468D8493DDD5FBB45BE316DD4297 /* Pods-ImaggaObjcCoreDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 406A7FB4C5477AB9B9D8039F8C5CC2D6 /* Build configuration list for PBXNativeTarget "Pods-ImaggaObjcCoreDataTests" */;
+			buildPhases = (
+				B6872CCF3F385BB760B4EF68B7438367 /* Headers */,
+				66443533A3406B2FF443DC0B62BB7D54 /* Sources */,
+				C7FB050EF4C3D70ED8E96F7ED4A3843A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3344E638B9B9C55632E2E222CAF1880 /* PBXTargetDependency */,
+			);
+			name = "Pods-ImaggaObjcCoreDataTests";
+			productName = "Pods-ImaggaObjcCoreDataTests";
+			productReference = AF245A013C05DB420567B998A56EB7A4 /* libPods-ImaggaObjcCoreDataTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A3A729513BF1A87109B04D920CDD28B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ECDBD128366060F243A60C121A263BB /* Pods-ImaggaObjcCoreData */,
+				EC7A468D8493DDD5FBB45BE316DD4297 /* Pods-ImaggaObjcCoreDataTests */,
+				13A8211414F62CE1FF64044B94E7D86C /* Unirest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FCBBBF4766373FBCECE65771F0CA4D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D74F99DB142E2706C838127686AFCB1 /* Pods-ImaggaObjcCoreData-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66443533A3406B2FF443DC0B62BB7D54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F574427DA475567515FAAD1AA0D5E0 /* Pods-ImaggaObjcCoreDataTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D71F875B7993C5718078D44B34EAFE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6CED0D0F7C61E905A62E9256801C42 /* Base64.m in Sources */,
+				7E25DD5165CD9EFEBFB18D2DCE6D6BD3 /* UNIBaseRequest.m in Sources */,
+				450EB95AB9A7AF3F63359543068F861C /* UNIBodyRequest.m in Sources */,
+				1E3BFC409A406D03D87369E1E82B4E54 /* UNIHTTPBinaryResponse.m in Sources */,
+				A6C3A7C383B9EA5D47E4761ECC560BE8 /* UNIHTTPClientHelper.m in Sources */,
+				8A4D3B56A6DB72497B6EE606274F220F /* UNIHTTPJsonResponse.m in Sources */,
+				33CD1E03F5220842A44707EDABB6B8A2 /* UNIHTTPRequest.m in Sources */,
+				ACAB0F4C5EAAA7ECEBFE6EA7A8C51E54 /* UNIHTTPRequestWithBody.m in Sources */,
+				50E835DBE43603BCC03C0416BFCEBEDA /* UNIHTTPResponse.m in Sources */,
+				BD09C0729FA7284700AB0B0CF8017830 /* UNIHTTPStringResponse.m in Sources */,
+				0020CD44FA03DB801AF41B09E2570332 /* UNIJsonNode.m in Sources */,
+				B9BD694DAEB73FA0B50417A858A8346A /* Unirest-dummy.m in Sources */,
+				822F2676A3FBD9B44652E52EA0EB4205 /* UNIRest.m in Sources */,
+				2EFD57BD4CED83C2A0C22768D625E171 /* UNISimpleRequest.m in Sources */,
+				A567E5A9199BABC34B8C5A07E82D138D /* UNIUrlConnection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB44930B1AA2ED4B3FC2651A198E5191 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Unirest;
+			target = 13A8211414F62CE1FF64044B94E7D86C /* Unirest */;
+			targetProxy = 1A680556942946E3BD9A826B7DA9D996 /* PBXContainerItemProxy */;
+		};
+		E3344E638B9B9C55632E2E222CAF1880 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ImaggaObjcCoreData";
+			target = 9ECDBD128366060F243A60C121A263BB /* Pods-ImaggaObjcCoreData */;
+			targetProxy = F4792E882563F1DCECEB157D19A50442 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D78AE4E639488E23CFE111F3A406F6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C30B60F145E165A7DD9C30B3CDC33827 /* Unirest.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Unirest/Unirest-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Unirest;
+				PRODUCT_NAME = Unirest;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11D9C6B656F560005963808784AB047F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 569E56932BF08F2600D823B58F405EBE /* Pods-ImaggaObjcCoreData.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23F391AB05F1D66E894DC6AE7E056514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69CA873A1FEEBF68A5AFEF62032BAADE /* Pods-ImaggaObjcCoreDataTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D69A2BB9A3BBCC0475CDD5B3357311E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C30B60F145E165A7DD9C30B3CDC33827 /* Unirest.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Unirest/Unirest-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Unirest;
+				PRODUCT_NAME = Unirest;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		754E613E9D4E476351B70F6E5523D027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65AF2AC0338FCC824419948CCABF2D9D /* Pods-ImaggaObjcCoreData.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EE8DFD1A394468E08669191F607BA076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6AAD58C11DF34D01BCC53FDDF4FABD6 /* Pods-ImaggaObjcCoreDataTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		406A7FB4C5477AB9B9D8039F8C5CC2D6 /* Build configuration list for PBXNativeTarget "Pods-ImaggaObjcCoreDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8DFD1A394468E08669191F607BA076 /* Debug */,
+				23F391AB05F1D66E894DC6AE7E056514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1391485F05B41BD35738A433056B7FA /* Debug */,
+				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A12C1F67023DBD916AE7E3E0A445656 /* Build configuration list for PBXNativeTarget "Pods-ImaggaObjcCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D9C6B656F560005963808784AB047F /* Debug */,
+				754E613E9D4E476351B70F6E5523D027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6661CB3D2786EE70DF8ABF581D63AB1F /* Build configuration list for PBXNativeTarget "Unirest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D69A2BB9A3BBCC0475CDD5B3357311E /* Debug */,
+				0D78AE4E639488E23CFE111F3A406F6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
